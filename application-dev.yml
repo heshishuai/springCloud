@@ -3,4 +3,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:58000/eureka/
 
-content:这是一个远程文件配置
+content: 这是一个远程文件配置
