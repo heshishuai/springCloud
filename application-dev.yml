@@ -1,0 +1,6 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:58000/eureka/
+
+content: 这是一个spring-cloud 远程配置
