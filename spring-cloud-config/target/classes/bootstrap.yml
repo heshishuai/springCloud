@@ -1,0 +1,16 @@
+server:
+  port: 58004
+spring:
+  profiles:
+    active: dev
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/heshishuai/springCloud.git
+          search-paths: springCloud
+          username: heshishuai
+          password: hss3378229
+          default-label: master
