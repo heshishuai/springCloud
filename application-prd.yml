@@ -1,0 +1,6 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.3.217:58000/eureka/
+
+content: 这是一个远程文件配置
